@@ -4,7 +4,10 @@
 This is a RESTFul API for displaying data from a MongoDB database. It supports URL parameters, for which the API will query the database and retrieve results. It's endpoints support GET, POST, PUT and DELETE requests on all database items.
 
 ### Endpoints
-
+- POST (Create) `localhost:port/api/`: Add a new person to the database
+- GET (Read) `localhost:port/api/user_id`: Fetching the details of a person
+- PUT (Update) `localhost:port/api/user_id`: Modifying the details of an existing person
+- DELETE `localhost:port/api/user_id`: Removing a person
 
 ### Setup
 - To setup, run `pip install requirements.txt`
@@ -20,5 +23,11 @@ This is a RESTFul API for displaying data from a MongoDB database. It supports U
 ### Tasks
 - [x] Setup FastAPI
 - [x] Define schema
-- [ ] Connect MongoDB
-- [ ] 
+- [x] Integrate database (mongodb)
+- [x] CRUD
+- [x] Add 'person' resource
+- [ ] Retrieve person by 'name' query resource
+- [ ] Add UML diagrams for system design and db structure
+- [x] List API endpoints in Readme
+- [ ] For dynamic parameters...type validation
+- [ ] Create testing script for all CRUD operations. Probably just make a Postman collection

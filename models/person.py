@@ -28,10 +28,10 @@ class UpdatePersonModel(BaseModel):
     class Config:
         schema_extra = {
             'example': {
-                'first_name': 'John',
-                'last_name': 'Doe',
-                'email': 'johndoe@example.com',
-                'age': 32,
+                'first_name': 'Jane',
+                'last_name': 'Deer',
+                'email': 'janedeer@example.com',
+                'age': 26,
             }
         }
 
