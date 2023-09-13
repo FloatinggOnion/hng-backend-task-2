@@ -38,7 +38,7 @@ async def add_person(person_data: dict) -> dict:
 
 # Retrieve a person with a matching ID
 async def retrieve_person(id: str) -> dict:
-    person = await person_collection.find_one({'_id': ObjectId(id)})
+    person = await person_collection.find_one({'first_name': id})
     if person:
         return person_helper(person)
     
@@ -48,10 +48,10 @@ async def update_person(id: str, data: dict):
     # Return false if an empty request body is sent.
     if len(data) < 1:
         return False
-    person = await person_collection.find_one({'_id': ObjectId(id)})
+    person = await person_collection.find_one({'first_name': id})
     if person:
         updated_person = await person_collection.update_one(
-            {'_id': ObjectId(id)}, {'$set': data}
+            {'first_name': id}, {'$set': data}
         )
         if updated_person:
             return True
@@ -60,7 +60,7 @@ async def update_person(id: str, data: dict):
 
 # Delete a person from the database
 async def delete_person(id: str):
-    person = await person_collection.find_one({'_id': ObjectId(id)})
+    person = await person_collection.find_one({'first_name': id})
     if person:
-        await person_collection.delete_one({'_id': ObjectId(id)})
+        await person_collection.delete_one({'first_name': id})
         return True

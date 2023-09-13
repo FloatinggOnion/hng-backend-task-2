@@ -15,6 +15,16 @@ This is a RESTFul API for displaying data from a MongoDB database. It supports U
 
 ### Request - Response Formats
 - CREATE: Adding a new person.  =>/api
+  - Below is an example of the payload that is expected
+  - ```json
+    {
+    "first_name": "John",
+    "last_name": "Doe",
+    "email": "johndoe@example.com",
+    "age": 32,
+    }
+    ```
+- READ: Fetching details of all people in database.  => /api
 - READ: Fetching details of a person.  => /api/user_id
 - UPDATE: Modifying details of an existing person => /api/user_id
 - DELETE: Removing a person => /api/user_id
@@ -29,5 +39,5 @@ This is a RESTFul API for displaying data from a MongoDB database. It supports U
 - [ ] Retrieve person by 'name' query resource
 - [ ] Add UML diagrams for system design and db structure
 - [x] List API endpoints in Readme
-- [ ] For dynamic parameters...type validation
-- [ ] Create testing script for all CRUD operations. Probably just make a Postman collection
+- [x] For dynamic parameters...type validation
+- [x] Create testing script for all CRUD operations. 

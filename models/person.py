@@ -36,7 +36,6 @@ class UpdatePersonModel(BaseModel):
         }
 
 
-
 def response_model(data, message):
     return {
         'data': [data],
