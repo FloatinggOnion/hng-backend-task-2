@@ -14,6 +14,7 @@ This is a RESTFul API for displaying data from a MongoDB database. It supports U
 
 
 ### Request - Response Formats
+**NOTE**: `user_id` is the user's `first_name`
 - CREATE: Adding a new person.  =>/api
   - Below is an example of the payload that is expected
   - ```json
