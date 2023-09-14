@@ -16,6 +16,7 @@ This is a RESTFul API for displaying data from an SQLite database. It supports U
 - Clone the repo `git clone https://github.com/FloatinggOnion/hng-backend-task-2.git`
 - `cd` into the folder and then...
 - To setup, run `pip install requirements.txt`
+- To run, `uvicorn main:app --reload`
 
 
 ### Request - Response Formats
