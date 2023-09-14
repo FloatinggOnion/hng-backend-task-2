@@ -5,7 +5,7 @@
 - [Database](#Database)
 - [Endpoints](#Endpoints)
 - [Setup](#Setup)
-- [Request - Response Formats](#Request_-_Response_Formats)
+- [Request - Response Formats](#"Request - Response Formats")
 - [Tasks](#Tasks)
 
 ### About
