@@ -1,7 +1,15 @@
 # HNG Backend Stage Two Task
 
+### Table of Contents
+- [About](#About)
+- [Database](#Database)
+- [Endpoints](#Endpoints)
+- [Setup](#Setup)
+- [Request - Response Formats](#Request_-_Response_Formats)
+- [Tasks](#Tasks)
+
 ### About
-This is a RESTFul API for displaying data from an SQLite database. It supports URL parameters, for which the API will query the database and retrieve results. It's endpoints support GET, POST, PUT and DELETE requests on all database items.
+This is a RESTFul API for displaying data from an SQLite database. It supports URL parameters, for which the API will query the database and retrieve results. Its endpoints support GET, POST, PUT and DELETE requests on all database items.
 
 ### Database
 - I interfaced with the SQLite database using the [SQLAlchemy](https://www.sqlalchemy.org/) package
