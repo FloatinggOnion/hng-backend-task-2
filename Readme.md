@@ -13,6 +13,8 @@ This is a RESTFul API for displaying data from an SQLite database. It supports U
 - DELETE `localhost:port/api/{person_name}`: Removing a person
 
 ### Setup
+- Clone the repo `git clone https://github.com/FloatinggOnion/hng-backend-task-2.git`
+- `cd` into the folder and then...
 - To setup, run `pip install requirements.txt`
 
 
