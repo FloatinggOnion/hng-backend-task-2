@@ -6,6 +6,7 @@
 - [Endpoints](#Endpoints)
 - [Setup](#Setup)
 - [Request - Response Formats](#Request-Response)
+- [Testing](#Testing)
 - [Tasks](#Tasks)
 
 ### About
