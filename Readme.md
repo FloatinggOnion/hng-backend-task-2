@@ -39,7 +39,8 @@ This is a RESTFul API for displaying data from an SQLite database. It supports U
     ```
 - READ: Fetching details of all people in database.  => /api
 - READ: Fetching details of a person.  => /api/person_name
-  - Returns ```json
+  - Returns 
+  - ```json
     {
     "name": "John Doe",
     "age": 32,
