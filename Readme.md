@@ -26,7 +26,6 @@ This is a RESTFul API for displaying data from an SQLite database. It supports U
 - To setup, run `pip install requirements.txt`
 - To run, `uvicorn main:app --reload`
 
-
 ### Request-Response
 **NOTE**: `person_name` is the user's `name`
 - CREATE: Adding a new person.  =>/api
@@ -72,6 +71,10 @@ This is a RESTFul API for displaying data from an SQLite database. It supports U
 - DELETE: Removing a person => /api/person_name
   - Returns "Record of {person_name} has been removed"
 
+### Testing
+- All tests were written and excecuted using `pytest`
+- To run tests, excecute the followin script
+- `python -m pytest test.py`
 
 ### Tasks
 - [x] Setup FastAPI
