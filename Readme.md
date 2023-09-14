@@ -54,7 +54,8 @@ This is a RESTFul API for displaying data from an SQLite database. It supports U
     "age": 32,
     }
     ```
-  - Returns ```json
+  - Returns 
+  - ```json
     {
     "name": "John Doe",
     "age": 32,
