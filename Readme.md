@@ -28,10 +28,36 @@ This is a RESTFul API for displaying data from an SQLite database. It supports U
     "age": 32,
     }
     ```
+  - Returns ```json
+    {
+    "name": "John Doe",
+    "age": 32,
+    }
+    ```
 - READ: Fetching details of all people in database.  => /api
 - READ: Fetching details of a person.  => /api/person_name
+  - Returns ```json
+    {
+    "name": "John Doe",
+    "age": 32,
+    }
+    ```
 - UPDATE: Modifying details of an existing person => /api/person_name
+  - Payload
+  - ```json
+    {
+    "name": "John Dark",
+    "age": 32,
+    }
+    ```
+  - Returns ```json
+    {
+    "name": "John Doe",
+    "age": 32,
+    }
+    ```
 - DELETE: Removing a person => /api/person_name
+  - Returns "Record of {person_name} has been removed"
 
 
 ### Tasks
