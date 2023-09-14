@@ -5,7 +5,7 @@
 - [Database](#Database)
 - [Endpoints](#Endpoints)
 - [Setup](#Setup)
-- [Request - Response Formats](#Request - Response Formats)
+- [Request - Response Formats](#Request-Response)
 - [Tasks](#Tasks)
 
 ### About
@@ -27,7 +27,7 @@ This is a RESTFul API for displaying data from an SQLite database. It supports U
 - To run, `uvicorn main:app --reload`
 
 
-### Request - Response Formats
+### Request-Response
 **NOTE**: `person_name` is the user's `name`
 - CREATE: Adding a new person.  =>/api
   - Below is an example of the payload that is expected
