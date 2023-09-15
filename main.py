@@ -4,7 +4,7 @@ import models
 from database import Base, engine, SessionLocal
 from sqlalchemy.orm import Session
 
-#This will create our database if it doesent already exists
+#This will create our database if it doesen't already exists
 Base.metadata.create_all(engine)
 def get_session():
     session = SessionLocal()
@@ -35,7 +35,7 @@ app = FastAPI(
     description=description,
     version="0.0.1",
     contact={
-        "name": "FloatinggOnion",
+        "name": "Jesse-Paul Osemeke",
         "url": "https://github.com/FloatinggOnion",
         "email": "jesseosems123@gmail.com.com",
     },
