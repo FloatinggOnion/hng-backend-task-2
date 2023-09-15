@@ -1,5 +1,7 @@
 # HNG Backend Stage Two Task
 
+Further documentation can be found [here](https://crud-api-qug8.onrender.com/redoc)
+
 ### Table of Contents
 - [About](#About)
 - [Database](#Database)
@@ -8,6 +10,7 @@
 - [Request - Response Formats](#Request-Response)
 - [Testing](#Testing)
 - [Tasks](#Tasks)
+- [Documentation](#Documentation)
 
 ### About
 This is a RESTFul API for displaying data from an SQLite database. It supports URL parameters, for which the API will query the database and retrieve results. Its endpoints support GET, POST, PUT and DELETE requests on all database items.
@@ -89,3 +92,6 @@ This is a RESTFul API for displaying data from an SQLite database. It supports U
 - [x] For dynamic parameters...type validation
 - [x] Create testing script for all CRUD operations. 
 - [x] Create requirements file
+
+### Documentation
+- Further documentation can be found [here](https://crud-api-qug8.onrender.com/redoc)
