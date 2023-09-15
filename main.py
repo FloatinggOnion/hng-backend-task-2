@@ -14,7 +14,30 @@ def get_session():
         session.close()
 
 
-app = FastAPI()
+description = """
+This API helps you to perform CRUD operations on a Person object. 🚀
+
+## People
+
+You will be able to:
+
+* **Create people**.
+* **Read people**.
+* **Update people**
+* **Delete people**
+"""
+
+
+app = FastAPI(
+    title="HNG Stage 2 Task",
+    description=description,
+    version="0.0.1",
+    contact={
+        "name": "FloatinggOnion",
+        "url": "https://github.com/FloatinggOnion",
+        "email": "dp@x-force.example.com",
+    },
+)
 prefix_router = APIRouter()
 
 def get_user_by_identifier(identifier):
