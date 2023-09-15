@@ -25,6 +25,8 @@ You will be able to:
 * **Read people**.
 * **Update people**
 * **Delete people**
+
+The link to this repository is https://github.com/FloatinggOnion/hng-backend-task-2/
 """
 
 
@@ -35,7 +37,7 @@ app = FastAPI(
     contact={
         "name": "FloatinggOnion",
         "url": "https://github.com/FloatinggOnion",
-        "email": "dp@x-force.example.com",
+        "email": "jesseosems123@gmail.com.com",
     },
 )
 prefix_router = APIRouter()
